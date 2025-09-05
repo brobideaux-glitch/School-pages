@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; 
+  color: #2f4f4f; 
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: inline-block;         
+  padding: 10px 20px;            
+  background-color: #2a7ae2;     
+  color: white;                  
+  text-decoration: none;         
+  border-radius: 10px;          
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #1a5bb8;     
+}
+
+
+h2 {
+  color: #00008b; 
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+nav {
+  background-color: #2f4f4f; 
+  color: #f0f8ff; 
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-right: 1px solid #f0f8ff;
+  display: inline-block;
+  color: #f0f8ff;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #e6f2ff; 
+  border: 2px solid #4682b4; 
+  font-family: Georgia, serif;
+}
+
+section h2 {
+  font-family: Tahoma, sans-serif;
+  margin-top: 0;
+}
+
+section#high-level h3 {
+  color: #8b0000; 
+}
+
+section#my-favorite-language img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 1em;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+#glossary dt {
+  font-weight: bold;
+  float: left;
+  width: 150px;
+  margin-right: 50px;
+}
+
+#glossary dd {
+  margin-left: 200px;
+  margin-bottom: 1em;
+}
+
+#glossary dt:nth-of-type(n+2) {
+  border-top: 1px solid #d3d3d3; 
+  padding-top: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+  background-color: #00008b; 
+  color: #f0f8ff; 
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #2f4f4f; 
+  color: #f5f5dc; 
+}
+h2 {
+  color: #f5f5dc; 
+}
+
+nav {
+  background-color: #f5f5dc; 
+  color: #2f4f4f; 
+}
+.horizontal-nav ul {
+  display: flex; 
+  justify-content: center; 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #333;
+}
+
+
+.horizontal-nav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.horizontal-nav a:hover {
+  background-color: #575757;
+  
+}
