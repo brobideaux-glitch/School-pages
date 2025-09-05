@@ -1,2 +1,1 @@
-# School-pages
-School progects. 
+Hello World!
